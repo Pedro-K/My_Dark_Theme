@@ -285,7 +285,7 @@
           "punctuation.definition.binding-pattern.object.js"
         ],
         "settings": {
-          "foreground": "#FF998C"
+          "foreground": "#ffb62e"
         }
       },
       {
@@ -308,6 +308,7 @@
       },
       {
         "scope": [
+          "comment",
           "comment.line.scss",
           "comment.line.double-slash.js",
           "punctuation.definition.comment.scss",
@@ -316,7 +317,7 @@
           "comment.block.html"
         ],
         "settings": {
-          "foreground": "#fdbcb480"
+          "foreground": "#fcb07e80"
         }
       },
       {
@@ -355,7 +356,6 @@
         "scope": [
           "storage.type.js",
           "string.other.link.title.markdown",
-          "variable.other.readwrite.js",
           "variable.other.property.js"
         ],
         "settings": {
@@ -369,6 +369,7 @@
           "string.quoted.double.html",
           "variable.other.constant.js",
           "variable.other.object.property.js",
+          "variable.other.readwrite.js",
           "string.quoted.double.json",
           "markup.fenced_code.block.markdown",
           "markup.inline.raw.string.markdown",
@@ -529,7 +530,7 @@
           "meta.object-literal.key"
         ],
         "settings": {
-          "foreground": "#82FFB6",
+          "foreground": "#b3ff00",
           "fontStyle": "italic"
         }
       },
@@ -762,12 +763,11 @@
       {
     "name": "Comment",
     "scope": [
-      "comment",
       "punctuation.definition.comment"
     ],
     "settings": {
       "fontStyle": "italic",
-      "foreground": "#90EE90"
+      "foreground": "#fcb07e"
     }
   },
   {
@@ -905,7 +905,7 @@
       "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
     ],
     "settings": {
-      "foreground": "#ff998c"
+      "foreground": "#fff08f"
     }
   },
   {
